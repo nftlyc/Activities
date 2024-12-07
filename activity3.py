@@ -1,0 +1,13 @@
+fullname = input (" What is your name? ")
+age = input (" How old are you? ")
+mobilenumber = input (" What is your mobile number? ")
+email = input (" Email: ")
+gender = input (" Sex: ")
+dateofbirth = input (" Date of birth: ")
+placeofbirth = input (" Where were you born? ")
+maritalstatus = input (" Is married? true or false ")
+religion = input (" Religion: ")
+languagesknown = input (" Languages known: ")
+address = input (" Address: ")
+
+print ("Hi, my name is " + fullname + " and I'm " , age , " years old " , gender , " \nI live in " + address + " \nmy phone number is " , mobilenumber , " and this is my email " + email + " \nI was born on " , dateofbirth , " in " + placeofbirth + " \nIt is " , maritalstatus ," that i'm married \nMy religion is " + religion + " and " + languagesknown + " is tha language that i can speak")
